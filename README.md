@@ -12,7 +12,7 @@ npm install @radoslawfabisiak/react-native-callstack
 
 ## Overview
 
-This package creates a persistent callstack worker that runs in the background, retrying failed API calls caused by app-level issues (e.g., bad internet, device crashes). It’s designed to be initialized once as a global instance and triggered in your main component’s `useEffect`. Saved us ~500k API calls monthly—~70% server load reduction—by deduplicating and throttling retries.
+This package creates a persistent callstack worker that runs in the background, retrying failed API calls caused by app-level issues (e.g., bad internet, device crashes). It’s designed to be initialized once as a global instance and triggered in your main component’s `useEffect`. Saved us ~500k API calls monthly.
 
 ## Setup
 
@@ -80,7 +80,7 @@ This package creates a persistent callstack worker that runs in the background, 
 
 ## Features
 
-- **App-Level Queuing**: Captures failures before server contact (e.g., bad signal, device issues).
+- **App-Level Queuing**: Captures device failures (e.g., bad signal, device issues).
 - **Deduplication**: Keeps one call per type/payload—drops duplicates, saves retries.
 - **Persistence**: Uses AsyncStorage to survive app restarts.
 - **Custom Function Mapping**: Pass your API functions with precise payload handling—no guesswork.
