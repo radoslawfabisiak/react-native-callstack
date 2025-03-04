@@ -1,6 +1,6 @@
 {
   "name": "@radoslawfabisiak/react-native-callstack",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A React Native callstack worker to queue and retry faild API callsfrom app-level.",
   "main": "src/index.js",
   "scripts": {

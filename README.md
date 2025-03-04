@@ -2,10 +2,6 @@
 
 A React Native callstack worker to queue and retry failed API calls from app-level fails, now open-sourced!
 
-# @radoslawfabisiak/react-native-callstack
-
-A React Native callstack worker to queue and retry failed API calls—saved ~500k calls/month from app-level failures, now open-sourced from 14+ years of dev experience!
-
 ## Installation
 
 Install the package and its dependency:
